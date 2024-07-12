@@ -67,9 +67,13 @@ body {
 /*SVG divider*/
 
 .svg-divider {
-  width: 100%;
+  width: 95%;
   height: 1rem;
   margin-bottom: 2rem;
+}
+
+.svg-divider-desktop {
+  display: none;
 }
 
 /*Container button*/
@@ -102,4 +106,32 @@ body {
 
 .attribution a {
   color: hsl(150, 100%, 66%);
+}
+
+/***************************************TABLET VERSION*************************************/
+
+@media screen and (min-width: 768px) {
+  .advice-container {
+    width: 60%;
+  }
+  .svg-divider {
+    display: none;
+  }
+  .svg-divider-desktop {
+    display: inline-block;
+    width: 95%;
+    height: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/***************************************DESKTOP VERSION*************************************/
+
+@media screen and (min-width: 1280px) {
+  .advice-container {
+    width: 32%;
+  }
+  .svg-divider-desktop {
+    width: 90%;
+  }
 }
