@@ -1,5 +1,9 @@
 # Avoid accidental upload of the Sketch and Figma design files
 #####################################################
+# Ignore node_modules directory
+node_modules/
+
+
 ## Please do not remove lines 5 and 6 - thanks! 🙂 ##
 #####################################################
 *.sketch
