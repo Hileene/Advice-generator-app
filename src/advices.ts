@@ -26,11 +26,9 @@ function getAdvice(data: AdviceSlip) {
   const advice: string = data.slip.advice
   const id: number = data.slip.id
 
-  const adviceIdElement = document.querySelector('#adviceId')
-  const adviceTextElement = document.querySelector('#adviceText')
+  const adviceIdElement = document.querySelector('#adviceId')!
+  const adviceTextElement = document.querySelector('#adviceText')!
 
-  if (adviceIdElement && adviceTextElement) {
-    adviceIdElement.textContent = `${id}`
-    adviceTextElement.textContent = advice
-  }
+  adviceIdElement.textContent = `${id}`
+  adviceTextElement.textContent = advice
 }

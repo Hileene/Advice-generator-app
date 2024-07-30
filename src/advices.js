@@ -25,8 +25,6 @@ function getAdvice(data) {
   var id = data.slip.id
   var adviceIdElement = document.querySelector('#adviceId')
   var adviceTextElement = document.querySelector('#adviceText')
-  if (adviceIdElement && adviceTextElement) {
-    adviceIdElement.textContent = ''.concat(id)
-    adviceTextElement.textContent = advice
-  }
+  adviceIdElement.textContent = ''.concat(id)
+  adviceTextElement.textContent = advice
 }
