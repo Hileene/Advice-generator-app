@@ -3,7 +3,8 @@
 # Ignore node_modules directory
 node_modules/
 
-
+# Ignore README-template
+/README-template.md
 ## Please do not remove lines 5 and 6 - thanks! 🙂 ##
 #####################################################
 *.sketch
