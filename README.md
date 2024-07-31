@@ -43,7 +43,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Hileene/Advice-generator-app](https://github.com/Hileene/Advice-generator-app)
+- Solution URL: [https://www.frontendmentor.io/solutions/advice-generator-app-with-typescript-eOtjW0z6yy](https://www.frontendmentor.io/solutions/advice-generator-app-with-typescript-eOtjW0z6yy)
 - Live Site URL: [https://hileene.github.io/Advice-generator-app/](https://hileene.github.io/Advice-generator-app/)
 
 ## My process
