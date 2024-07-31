@@ -89,7 +89,7 @@ The final stage involved integrating TypeScript to manage the advice generator l
 
 For this project, I wanted to start learning TypeScript and understand its benefits compare to Javascript. It was a small project so It was easy enough to learn the bases of TypeScript. I started the logic for the generator in JavaScript and after I updated in TypeScript.
 
-What was tricky though was to understand why the button, advice ID and advice text elements were marked as "possibly null" by TypeScript although these elements are find in the DOM with only JavaScript. Even if my JavaScript code was working perfectly, TypeScript's goal is to make sure our code is robust and handles all potential edge cases, including the possibility of elements not being found in the DOM.
+What was tricky though was to understand why the button, advice ID and advice text elements were marked as "possibly null" by TypeScript although these elements are find in the DOM when only using JavaScript. Even if my JavaScript code was working perfectly, TypeScript's goal is to make sure our code is robust and handles all potential edge cases, including the possibility of elements not being found in the DOM.
 
 Because I was sure my element will never be "null" I added the non-null assertion operator (!). The other possibility was to add a "if" statement.
 
