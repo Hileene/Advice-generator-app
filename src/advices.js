@@ -52,9 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
     fetchAndDisplayAdvice();
 });
 var btnAdvice = document.querySelector('#btnAdvice');
-if (btnAdvice) {
-    btnAdvice.addEventListener('click', function (e) {
-        e.preventDefault();
-        fetchAndDisplayAdvice();
-    });
-}
+btnAdvice.addEventListener('click', function (e) {
+    e.preventDefault();
+    fetchAndDisplayAdvice();
+});
