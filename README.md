@@ -96,10 +96,16 @@ Because I was sure my element will never be "null" I added the non-null assertio
 To see how you can add code snippets, see below:
 
 ```typescript
-const btnAdvice = document.querySelector<HTMLDivElement>('#btnAdvice')!
+const adviceIdElement = document.querySelector<HTMLSpanElement>('#adviceId')!
+const adviceTextElement =
+  document.querySelector<HTMLSpanElement>('#adviceText')!!
 
-const adviceIdElement = document.querySelector('#adviceId')!
-const adviceTextElement = document.querySelector('#adviceText')!
+const btnAdvice = document.querySelector<HTMLButtonElement>('#btnAdvice')!
+
+btnAdvice.addEventListener('click', (e: Event) => {
+  e.preventDefault()
+  fetchAndDisplayAdvice()
+})
 ```
 
 ### Continued development
